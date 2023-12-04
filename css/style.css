@@ -97,6 +97,17 @@ body {
 .nav-link:not(.active):hover{
 	background-color: hsl(45, 100%, 80%);
 }
+.whatsapp{
+	position : fixed;
+	width: 40px;
+	height: 40px;
+	bottom: 60px;
+	right: 40px;
+	font-size: 40px;
+}
+.whatsapp i{
+	color: rgb(11, 235, 11);
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.carousel-caption {
 		bottom: 370px;
